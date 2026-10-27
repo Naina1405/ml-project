@@ -1,0 +1,1217 @@
+[
+  {
+    "task_id": "GEN-1138",
+    "user_prompt": "Remember that I prefer dark mode UI for Python Programming",
+    "intent": "save_memory",
+    "required_tools": [
+      "memory"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'save_memory' with tools ['memory']"
+  },
+  {
+    "task_id": "GEN-1496",
+    "user_prompt": "Save this preference: concise emails",
+    "intent": "save_memory",
+    "required_tools": [
+      "memory"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'save_memory' with tools ['memory']"
+  },
+  {
+    "task_id": "GEN-0136",
+    "user_prompt": "Note down that my preferred email style is dark mode UI",
+    "intent": "save_memory",
+    "required_tools": [
+      "memory"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'save_memory' with tools ['memory']"
+  },
+  {
+    "task_id": "GEN-0953",
+    "user_prompt": "Save to my memory: I like Python based courses",
+    "intent": "save_memory",
+    "required_tools": [
+      "memory"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'save_memory' with tools ['memory']"
+  },
+  {
+    "task_id": "GEN-0043",
+    "user_prompt": "Remember that I prefer dark mode UI for FastAPI Web Apps",
+    "intent": "save_memory",
+    "required_tools": [
+      "memory"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'save_memory' with tools ['memory']"
+  },
+  {
+    "task_id": "GEN-0130",
+    "user_prompt": "Note down that my preferred email style is morning reminders",
+    "intent": "save_memory",
+    "required_tools": [
+      "memory"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'save_memory' with tools ['memory']"
+  },
+  {
+    "task_id": "GEN-0544",
+    "user_prompt": "Notify me at 9:00 AM to submit assignment",
+    "intent": "create_reminder",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_reminder' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-0718",
+    "user_prompt": "Remind me to pay electric bill tomorrow at 2:30 PM",
+    "intent": "create_reminder",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_reminder' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-0740",
+    "user_prompt": "Notify me at 10:00 AM to submit assignment",
+    "intent": "create_reminder",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_reminder' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-0099",
+    "user_prompt": "Remind me to submit assignment tomorrow at 4:00 PM",
+    "intent": "create_reminder",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_reminder' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-0774",
+    "user_prompt": "Schedule a reminder: finish project report at 8:00 PM",
+    "intent": "create_reminder",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_reminder' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-0098",
+    "user_prompt": "Schedule a reminder: pay electric bill at 9:00 AM",
+    "intent": "create_reminder",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_reminder' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-0100",
+    "user_prompt": "Don't let me forget to pay electric bill on Friday",
+    "intent": "create_reminder",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_reminder' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-1413",
+    "user_prompt": "Schedule a reminder: review pull request at 9:00 AM",
+    "intent": "create_reminder",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_reminder' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-0407",
+    "user_prompt": "Remind me to buy groceries tomorrow at 8:00 PM",
+    "intent": "create_reminder",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_reminder' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-0255",
+    "user_prompt": "Schedule a reminder: review pull request at 10:00 AM",
+    "intent": "create_reminder",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_reminder' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-0550",
+    "user_prompt": "Notify me at 2:30 PM to finish project report",
+    "intent": "create_reminder",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_reminder' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-0697",
+    "user_prompt": "Remind me to pay electric bill tomorrow at 10:00 AM",
+    "intent": "create_reminder",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_reminder' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-0886",
+    "user_prompt": "Don't let me forget to buy groceries on tomorrow",
+    "intent": "create_reminder",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_reminder' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-1247",
+    "user_prompt": "Set task TSK-566 as done",
+    "intent": "update_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'update_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0272",
+    "user_prompt": "Change deadline of task TSK-830 to tomorrow",
+    "intent": "update_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'update_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0768",
+    "user_prompt": "Mark task TSK-175 as completed",
+    "intent": "update_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'update_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0785",
+    "user_prompt": "Set task TSK-860 as done",
+    "intent": "update_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'update_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-1022",
+    "user_prompt": "Mark task TSK-190 as completed",
+    "intent": "update_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'update_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0251",
+    "user_prompt": "Set task TSK-240 as done",
+    "intent": "update_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'update_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0106",
+    "user_prompt": "Set task TSK-155 as done",
+    "intent": "update_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'update_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0706",
+    "user_prompt": "Change deadline of task TSK-691 to tomorrow",
+    "intent": "update_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'update_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0309",
+    "user_prompt": "Change deadline of task TSK-432 to tomorrow",
+    "intent": "update_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'update_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-1225",
+    "user_prompt": "Change deadline of task TSK-247 to tomorrow",
+    "intent": "update_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'update_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-1068",
+    "user_prompt": "Mark task TSK-558 as completed",
+    "intent": "update_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'update_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-1271",
+    "user_prompt": "Delete reminder TSK-104",
+    "intent": "cancel_task",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'cancel_task' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-0030",
+    "user_prompt": "Remove the reminder scheduled for 4:00 PM",
+    "intent": "cancel_task",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'cancel_task' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-0277",
+    "user_prompt": "Delete reminder TSK-123",
+    "intent": "cancel_task",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'cancel_task' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-0428",
+    "user_prompt": "Delete reminder TSK-274",
+    "intent": "cancel_task",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'cancel_task' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-0492",
+    "user_prompt": "Delete reminder TSK-242",
+    "intent": "cancel_task",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'cancel_task' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-0118",
+    "user_prompt": "Cancel my reminder for finish project report",
+    "intent": "cancel_task",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'cancel_task' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-0009",
+    "user_prompt": "Remove the reminder scheduled for 10:00 AM",
+    "intent": "cancel_task",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'cancel_task' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-0929",
+    "user_prompt": "Delete reminder TSK-993",
+    "intent": "cancel_task",
+    "required_tools": [
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'cancel_task' with tools ['scheduler']"
+  },
+  {
+    "task_id": "GEN-0995",
+    "user_prompt": "Provide a quick brief on Python Programming",
+    "intent": "summarize_information",
+    "required_tools": [
+      "web_search"
+    ],
+    "requires_approval": false,
+    "difficulty": "medium",
+    "expected_output": "Successfully handled intent 'summarize_information' with tools ['web_search']"
+  },
+  {
+    "task_id": "GEN-0128",
+    "user_prompt": "Summarize recent articles about Python Programming",
+    "intent": "summarize_information",
+    "required_tools": [
+      "web_search"
+    ],
+    "requires_approval": false,
+    "difficulty": "medium",
+    "expected_output": "Successfully handled intent 'summarize_information' with tools ['web_search']"
+  },
+  {
+    "task_id": "GEN-0013",
+    "user_prompt": "Give me a short summary of Machine Learning",
+    "intent": "summarize_information",
+    "required_tools": [
+      "web_search"
+    ],
+    "requires_approval": false,
+    "difficulty": "medium",
+    "expected_output": "Successfully handled intent 'summarize_information' with tools ['web_search']"
+  },
+  {
+    "task_id": "GEN-0976",
+    "user_prompt": "Provide a quick brief on Machine Learning",
+    "intent": "summarize_information",
+    "required_tools": [
+      "web_search"
+    ],
+    "requires_approval": false,
+    "difficulty": "medium",
+    "expected_output": "Successfully handled intent 'summarize_information' with tools ['web_search']"
+  },
+  {
+    "task_id": "GEN-0023",
+    "user_prompt": "Provide a quick brief on FastAPI Web Apps",
+    "intent": "summarize_information",
+    "required_tools": [
+      "web_search"
+    ],
+    "requires_approval": false,
+    "difficulty": "medium",
+    "expected_output": "Successfully handled intent 'summarize_information' with tools ['web_search']"
+  },
+  {
+    "task_id": "GEN-0089",
+    "user_prompt": "Summarize the key points of SQL Database",
+    "intent": "summarize_information",
+    "required_tools": [
+      "web_search"
+    ],
+    "requires_approval": false,
+    "difficulty": "medium",
+    "expected_output": "Successfully handled intent 'summarize_information' with tools ['web_search']"
+  },
+  {
+    "task_id": "GEN-0460",
+    "user_prompt": "Search online for latest news on React UI",
+    "intent": "search_information",
+    "required_tools": [
+      "web_search"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'search_information' with tools ['web_search']"
+  },
+  {
+    "task_id": "GEN-0523",
+    "user_prompt": "What are the best resources to learn React UI?",
+    "intent": "search_information",
+    "required_tools": [
+      "web_search"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'search_information' with tools ['web_search']"
+  },
+  {
+    "task_id": "GEN-1426",
+    "user_prompt": "Search the web for React UI",
+    "intent": "search_information",
+    "required_tools": [
+      "web_search"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'search_information' with tools ['web_search']"
+  },
+  {
+    "task_id": "GEN-0655",
+    "user_prompt": "Search online for latest news on Python Programming",
+    "intent": "search_information",
+    "required_tools": [
+      "web_search"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'search_information' with tools ['web_search']"
+  },
+  {
+    "task_id": "GEN-0772",
+    "user_prompt": "Find information about React UI",
+    "intent": "search_information",
+    "required_tools": [
+      "web_search"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'search_information' with tools ['web_search']"
+  },
+  {
+    "task_id": "GEN-0059",
+    "user_prompt": "Search online for latest news on Data Engineering",
+    "intent": "search_information",
+    "required_tools": [
+      "web_search"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'search_information' with tools ['web_search']"
+  },
+  {
+    "task_id": "GEN-0195",
+    "user_prompt": "Look up top courses for Data Engineering",
+    "intent": "search_information",
+    "required_tools": [
+      "web_search"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'search_information' with tools ['web_search']"
+  },
+  {
+    "task_id": "GEN-1216",
+    "user_prompt": "Clear task TSK-548",
+    "intent": "delete_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'delete_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0120",
+    "user_prompt": "Erase task 'pay electric bill' from my database",
+    "intent": "delete_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'delete_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0446",
+    "user_prompt": "Get rid of task TSK-812",
+    "intent": "delete_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'delete_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0559",
+    "user_prompt": "Delete task TSK-806 from my list",
+    "intent": "delete_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'delete_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0432",
+    "user_prompt": "Remove the task 'call doctor'",
+    "intent": "delete_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'delete_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0345",
+    "user_prompt": "Get rid of task TSK-179",
+    "intent": "delete_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'delete_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-1088",
+    "user_prompt": "Remove the task 'finish project report'",
+    "intent": "delete_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'delete_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-1239",
+    "user_prompt": "Delete task TSK-420 from my list",
+    "intent": "delete_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'delete_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0988",
+    "user_prompt": "Clear task TSK-673",
+    "intent": "delete_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'delete_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0543",
+    "user_prompt": "Clear task TSK-296",
+    "intent": "delete_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'delete_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-1030",
+    "user_prompt": "Delete task TSK-303 from my list",
+    "intent": "delete_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'delete_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0491",
+    "user_prompt": "Clear task TSK-420",
+    "intent": "delete_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'delete_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0917",
+    "user_prompt": "Delete task TSK-755 from my list",
+    "intent": "delete_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'delete_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0084",
+    "user_prompt": "Research FastAPI Web Apps, save my favorite option to memory, and schedule a calendar event for next week",
+    "intent": "multi_step_task",
+    "required_tools": [
+      "web_search",
+      "memory",
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "complex",
+    "expected_output": "Successfully handled intent 'multi_step_task' with tools ['web_search', 'memory', 'scheduler']"
+  },
+  {
+    "task_id": "GEN-0888",
+    "user_prompt": "Look up Python Programming prices, select the cheapest, save it, and notify me tomorrow",
+    "intent": "multi_step_task",
+    "required_tools": [
+      "web_search",
+      "memory",
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "complex",
+    "expected_output": "Successfully handled intent 'multi_step_task' with tools ['web_search', 'memory', 'scheduler']"
+  },
+  {
+    "task_id": "GEN-1386",
+    "user_prompt": "Search for top SQL Database tutorials, summarize the best one, and draft an email to Professor Smith about it",
+    "intent": "multi_step_task",
+    "required_tools": [
+      "web_search",
+      "memory",
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "complex",
+    "expected_output": "Successfully handled intent 'multi_step_task' with tools ['web_search', 'memory', 'scheduler']"
+  },
+  {
+    "task_id": "GEN-0063",
+    "user_prompt": "Find 3 good React UI courses, compare them, save the best one to my notes, and remind me tomorrow to enroll",
+    "intent": "multi_step_task",
+    "required_tools": [
+      "web_search",
+      "memory",
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "complex",
+    "expected_output": "Successfully handled intent 'multi_step_task' with tools ['web_search', 'memory', 'scheduler']"
+  },
+  {
+    "task_id": "GEN-0186",
+    "user_prompt": "Look up Cloud Computing prices, select the cheapest, save it, and notify me tomorrow",
+    "intent": "multi_step_task",
+    "required_tools": [
+      "web_search",
+      "memory",
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "complex",
+    "expected_output": "Successfully handled intent 'multi_step_task' with tools ['web_search', 'memory', 'scheduler']"
+  },
+  {
+    "task_id": "GEN-0064",
+    "user_prompt": "Search for top React UI tutorials, summarize the best one, and draft an email to Team Lead Sarah about it",
+    "intent": "multi_step_task",
+    "required_tools": [
+      "web_search",
+      "memory",
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "complex",
+    "expected_output": "Successfully handled intent 'multi_step_task' with tools ['web_search', 'memory', 'scheduler']"
+  },
+  {
+    "task_id": "GEN-0057",
+    "user_prompt": "Find 3 good Deep Learning courses, compare them, save the best one to my notes, and remind me tomorrow to enroll",
+    "intent": "multi_step_task",
+    "required_tools": [
+      "web_search",
+      "memory",
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "complex",
+    "expected_output": "Successfully handled intent 'multi_step_task' with tools ['web_search', 'memory', 'scheduler']"
+  },
+  {
+    "task_id": "GEN-1240",
+    "user_prompt": "Search for top React UI tutorials, summarize the best one, and draft an email to Dr. Davis about it",
+    "intent": "multi_step_task",
+    "required_tools": [
+      "web_search",
+      "memory",
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "complex",
+    "expected_output": "Successfully handled intent 'multi_step_task' with tools ['web_search', 'memory', 'scheduler']"
+  },
+  {
+    "task_id": "GEN-0014",
+    "user_prompt": "Send this update report to my professor at prof.smith@university.edu",
+    "intent": "send_email",
+    "required_tools": [
+      "email"
+    ],
+    "requires_approval": true,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'send_email' with tools ['email']"
+  },
+  {
+    "task_id": "GEN-0204",
+    "user_prompt": "Email Manager John about Project Progress Update",
+    "intent": "send_email",
+    "required_tools": [
+      "email"
+    ],
+    "requires_approval": true,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'send_email' with tools ['email']"
+  },
+  {
+    "task_id": "GEN-0197",
+    "user_prompt": "Email Professor Smith about Project Progress Update",
+    "intent": "send_email",
+    "required_tools": [
+      "email"
+    ],
+    "requires_approval": true,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'send_email' with tools ['email']"
+  },
+  {
+    "task_id": "GEN-0017",
+    "user_prompt": "Can you do a backflip?",
+    "intent": "unknown_request",
+    "required_tools": [],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'unknown_request' with tools []"
+  },
+  {
+    "task_id": "GEN-0027",
+    "user_prompt": "What is the airspeed velocity of an unladen swallow?",
+    "intent": "unknown_request",
+    "required_tools": [],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'unknown_request' with tools []"
+  },
+  {
+    "task_id": "GEN-0374",
+    "user_prompt": "Put 'review pull request' on my TODO list with priority normal",
+    "intent": "create_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-1368",
+    "user_prompt": "Put 'buy groceries' on my TODO list with priority high",
+    "intent": "create_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0594",
+    "user_prompt": "Add 'call doctor' to my task list",
+    "intent": "create_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-1406",
+    "user_prompt": "Create a new task to finish project report by 10:00 AM",
+    "intent": "create_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0061",
+    "user_prompt": "Track this task for me: review pull request",
+    "intent": "create_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0770",
+    "user_prompt": "Create a new task to finish project report by 9:00 AM",
+    "intent": "create_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0200",
+    "user_prompt": "Track this task for me: buy groceries",
+    "intent": "create_task",
+    "required_tools": [
+      "task_manager"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_task' with tools ['task_manager']"
+  },
+  {
+    "task_id": "GEN-0031",
+    "user_prompt": "What are my saved preferences for FastAPI Web Apps?",
+    "intent": "retrieve_memory",
+    "required_tools": [
+      "memory"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'retrieve_memory' with tools ['memory']"
+  },
+  {
+    "task_id": "GEN-1441",
+    "user_prompt": "Search my memory for Data Engineering",
+    "intent": "retrieve_memory",
+    "required_tools": [
+      "memory"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'retrieve_memory' with tools ['memory']"
+  },
+  {
+    "task_id": "GEN-0617",
+    "user_prompt": "What are my saved preferences for Cloud Computing?",
+    "intent": "retrieve_memory",
+    "required_tools": [
+      "memory"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'retrieve_memory' with tools ['memory']"
+  },
+  {
+    "task_id": "GEN-0109",
+    "user_prompt": "What are my saved preferences for Machine Learning?",
+    "intent": "retrieve_memory",
+    "required_tools": [
+      "memory"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'retrieve_memory' with tools ['memory']"
+  },
+  {
+    "task_id": "GEN-0157",
+    "user_prompt": "Search my memory for Deep Learning",
+    "intent": "retrieve_memory",
+    "required_tools": [
+      "memory"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'retrieve_memory' with tools ['memory']"
+  },
+  {
+    "task_id": "GEN-1229",
+    "user_prompt": "Add event 'pay electric bill' to my calendar for Monday at 9:00 AM",
+    "intent": "create_calendar_event",
+    "required_tools": [
+      "calendar"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_calendar_event' with tools ['calendar']"
+  },
+  {
+    "task_id": "GEN-0660",
+    "user_prompt": "Book a time slot for review pull request at 8:00 PM",
+    "intent": "create_calendar_event",
+    "required_tools": [
+      "calendar"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_calendar_event' with tools ['calendar']"
+  },
+  {
+    "task_id": "GEN-0398",
+    "user_prompt": "Schedule a meeting with Alex tomorrow at 2:30 PM",
+    "intent": "create_calendar_event",
+    "required_tools": [
+      "calendar"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_calendar_event' with tools ['calendar']"
+  },
+  {
+    "task_id": "GEN-1210",
+    "user_prompt": "Book a time slot for buy groceries at 8:00 PM",
+    "intent": "create_calendar_event",
+    "required_tools": [
+      "calendar"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_calendar_event' with tools ['calendar']"
+  },
+  {
+    "task_id": "GEN-1499",
+    "user_prompt": "Schedule a meeting with Team Lead Sarah tomorrow at 8:00 PM",
+    "intent": "create_calendar_event",
+    "required_tools": [
+      "calendar"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_calendar_event' with tools ['calendar']"
+  },
+  {
+    "task_id": "GEN-0341",
+    "user_prompt": "Add event 'call doctor' to my calendar for next week at 8:00 PM",
+    "intent": "create_calendar_event",
+    "required_tools": [
+      "calendar"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_calendar_event' with tools ['calendar']"
+  },
+  {
+    "task_id": "GEN-0872",
+    "user_prompt": "Book a time slot for pay electric bill at 4:00 PM",
+    "intent": "create_calendar_event",
+    "required_tools": [
+      "calendar"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_calendar_event' with tools ['calendar']"
+  },
+  {
+    "task_id": "GEN-0922",
+    "user_prompt": "Create a calendar event for review pull request on tomorrow",
+    "intent": "create_calendar_event",
+    "required_tools": [
+      "calendar"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_calendar_event' with tools ['calendar']"
+  },
+  {
+    "task_id": "GEN-0226",
+    "user_prompt": "Create a calendar event for pay electric bill on Friday",
+    "intent": "create_calendar_event",
+    "required_tools": [
+      "calendar"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_calendar_event' with tools ['calendar']"
+  },
+  {
+    "task_id": "GEN-1158",
+    "user_prompt": "Book a time slot for finish project report at 2:30 PM",
+    "intent": "create_calendar_event",
+    "required_tools": [
+      "calendar"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_calendar_event' with tools ['calendar']"
+  },
+  {
+    "task_id": "GEN-0990",
+    "user_prompt": "Add event 'submit assignment' to my calendar for Monday at 4:00 PM",
+    "intent": "create_calendar_event",
+    "required_tools": [
+      "calendar"
+    ],
+    "requires_approval": false,
+    "difficulty": "simple",
+    "expected_output": "Successfully handled intent 'create_calendar_event' with tools ['calendar']"
+  },
+  {
+    "task_id": "GEN-0192",
+    "user_prompt": "Search for Machine Learning updates and if found, save them to my notes",
+    "intent": "conditional_task",
+    "required_tools": [
+      "web_search",
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "complex",
+    "expected_output": "Successfully handled intent 'conditional_task' with tools ['web_search', 'scheduler']"
+  },
+  {
+    "task_id": "GEN-1421",
+    "user_prompt": "Check if Data Engineering price drops below $50 and notify me",
+    "intent": "conditional_task",
+    "required_tools": [
+      "web_search",
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "complex",
+    "expected_output": "Successfully handled intent 'conditional_task' with tools ['web_search', 'scheduler']"
+  },
+  {
+    "task_id": "GEN-0573",
+    "user_prompt": "Search for Deep Learning updates and if found, save them to my notes",
+    "intent": "conditional_task",
+    "required_tools": [
+      "web_search",
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "complex",
+    "expected_output": "Successfully handled intent 'conditional_task' with tools ['web_search', 'scheduler']"
+  },
+  {
+    "task_id": "GEN-0316",
+    "user_prompt": "Search for Python Programming updates and if found, save them to my notes",
+    "intent": "conditional_task",
+    "required_tools": [
+      "web_search",
+      "scheduler"
+    ],
+    "requires_approval": false,
+    "difficulty": "complex",
+    "expected_output": "Successfully handled intent 'conditional_task' with tools ['web_search', 'scheduler']"
+  },
+  {
+    "task_id": "GEN-0378",
+    "user_prompt": "Search for Cloud Computing tools and compare their features",
+    "intent": "compare_information",
+    "required_tools": [
+      "web_search"
+    ],
+    "requires_approval": false,
+    "difficulty": "medium",
+    "expected_output": "Successfully handled intent 'compare_information' with tools ['web_search']"
+  },
+  {
+    "task_id": "GEN-0330",
+    "user_prompt": "Search for React UI tools and compare their features",
+    "intent": "compare_information",
+    "required_tools": [
+      "web_search"
+    ],
+    "requires_approval": false,
+    "difficulty": "medium",
+    "expected_output": "Successfully handled intent 'compare_information' with tools ['web_search']"
+  },
+  {
+    "task_id": "GEN-0567",
+    "user_prompt": "Search for SQL Database tools and compare their features",
+    "intent": "compare_information",
+    "required_tools": [
+      "web_search"
+    ],
+    "requires_approval": false,
+    "difficulty": "medium",
+    "expected_output": "Successfully handled intent 'compare_information' with tools ['web_search']"
+  },
+  {
+    "task_id": "GEN-0250",
+    "user_prompt": "Find 3 good Data Engineering courses and compare their prices",
+    "intent": "compare_information",
+    "required_tools": [
+      "web_search"
+    ],
+    "requires_approval": false,
+    "difficulty": "medium",
+    "expected_output": "Successfully handled intent 'compare_information' with tools ['web_search']"
+  },
+  {
+    "task_id": "GEN-0874",
+    "user_prompt": "Which is better: Cloud Computing option A or option B?",
+    "intent": "compare_information",
+    "required_tools": [
+      "web_search"
+    ],
+    "requires_approval": false,
+    "difficulty": "medium",
+    "expected_output": "Successfully handled intent 'compare_information' with tools ['web_search']"
+  }
+]

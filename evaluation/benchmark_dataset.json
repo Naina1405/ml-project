@@ -1,0 +1,50 @@
+[
+  {
+    "benchmark_id": "BENCH-001",
+    "category": "simple",
+    "prompt": "Create a reminder for tomorrow at 9 AM to submit my assignment",
+    "expected_intent": "create_reminder",
+    "expected_tools": ["scheduler"],
+    "requires_approval": false
+  },
+  {
+    "benchmark_id": "BENCH-002",
+    "category": "multi_step",
+    "prompt": "Search for three beginner-friendly machine learning courses, compare their prices and duration, save the best option to my memory, and create a reminder for me to review it tomorrow at 9 AM",
+    "expected_intent": "multi_step_task",
+    "expected_tools": ["web_search", "memory", "scheduler"],
+    "requires_approval": false
+  },
+  {
+    "benchmark_id": "BENCH-003",
+    "category": "conditional",
+    "prompt": "If tomorrow's weather has rain, remind me to carry an umbrella",
+    "expected_intent": "conditional_task",
+    "expected_tools": ["web_search", "scheduler"],
+    "requires_approval": false
+  },
+  {
+    "benchmark_id": "BENCH-004",
+    "category": "sensitive",
+    "prompt": "Send an email to prof.smith@university.edu with the subject Assignment Report",
+    "expected_intent": "send_email",
+    "expected_tools": ["email"],
+    "requires_approval": true
+  },
+  {
+    "benchmark_id": "BENCH-005",
+    "category": "failure_recovery",
+    "prompt": "Search online for rare obscure non-existent query 987654321",
+    "expected_intent": "search_information",
+    "expected_tools": ["web_search"],
+    "requires_approval": false
+  },
+  {
+    "benchmark_id": "BENCH-006",
+    "category": "ambiguous",
+    "prompt": "Schedule it for later",
+    "expected_intent": "unknown_request",
+    "expected_tools": [],
+    "requires_approval": false
+  }
+]
